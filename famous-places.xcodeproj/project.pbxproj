@@ -14,6 +14,7 @@
 		B5FCF4EB2DA3A44D000E9447 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4EA2DA3A44D000E9447 /* LocationsDataService.swift */; };
 		B5FCF4EF2DA3AA7F000E9447 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4EE2DA3AA7F000E9447 /* LocationsView.swift */; };
 		B5FCF4F12DA3B1E2000E9447 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4F02DA3B1E2000E9447 /* LocationsViewModel.swift */; };
+		B5FCF4F42DA3C110000E9447 /* DEFAULT_LOCATION.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4F32DA3C110000E9447 /* DEFAULT_LOCATION.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B5FCF4EA2DA3A44D000E9447 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		B5FCF4EE2DA3AA7F000E9447 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		B5FCF4F02DA3B1E2000E9447 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		B5FCF4F32DA3C110000E9447 /* DEFAULT_LOCATION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEFAULT_LOCATION.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B5FCF4E62DA3A2DE000E9447 /* ViewModels */,
 				B5FCF4E52DA3A2D1000E9447 /* Models */,
 				B5FCF4DA2DA39279000E9447 /* Assets.xcassets */,
+				B5FCF4F22DA3C0E9000E9447 /* Resources */,
 				B5FCF4DC2DA39279000E9447 /* Preview Content */,
 			);
 			path = "famous-places";
@@ -106,6 +109,14 @@
 				B5FCF4EA2DA3A44D000E9447 /* LocationsDataService.swift */,
 			);
 			path = DataServices;
+			sourceTree = "<group>";
+		};
+		B5FCF4F22DA3C0E9000E9447 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5FCF4F32DA3C110000E9447 /* DEFAULT_LOCATION.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			files = (
 				B5FCF4EB2DA3A44D000E9447 /* LocationsDataService.swift in Sources */,
 				B5FCF4F12DA3B1E2000E9447 /* LocationsViewModel.swift in Sources */,
+				B5FCF4F42DA3C110000E9447 /* DEFAULT_LOCATION.swift in Sources */,
 				B5FCF4EF2DA3AA7F000E9447 /* LocationsView.swift in Sources */,
 				B5FCF4E82DA3A316000E9447 /* Location.swift in Sources */,
 				B5FCF4D72DA39278000E9447 /* famous_placesApp.swift in Sources */,
