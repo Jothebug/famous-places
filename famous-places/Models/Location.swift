@@ -8,11 +8,15 @@
 import Foundation
 import MapKit
 
-struct Location {
+struct Location: Identifiable {
     let name: String
     let cityName: String
     let coordinates: CLLocationCoordinate2D
     let description: String
     let imageNames: [String]
     let link: String
+    
+    // Identifiable
+    // This is a computed property — not a stored one. That's why it writes like the below.
+    var id: String { name + cityName }
 }
