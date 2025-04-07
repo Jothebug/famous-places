@@ -15,6 +15,7 @@
 		B5FCF4EF2DA3AA7F000E9447 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4EE2DA3AA7F000E9447 /* LocationsView.swift */; };
 		B5FCF4F12DA3B1E2000E9447 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4F02DA3B1E2000E9447 /* LocationsViewModel.swift */; };
 		B5FCF4F42DA3C110000E9447 /* DEFAULT_LOCATION.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4F32DA3C110000E9447 /* DEFAULT_LOCATION.swift */; };
+		B5FCF4F62DA3EEE0000E9447 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4F52DA3EEE0000E9447 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B5FCF4EE2DA3AA7F000E9447 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		B5FCF4F02DA3B1E2000E9447 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		B5FCF4F32DA3C110000E9447 /* DEFAULT_LOCATION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEFAULT_LOCATION.swift; sourceTree = "<group>"; };
+		B5FCF4F52DA3EEE0000E9447 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B5FCF4EE2DA3AA7F000E9447 /* LocationsView.swift */,
+				B5FCF4F52DA3EEE0000E9447 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FCF4EB2DA3A44D000E9447 /* LocationsDataService.swift in Sources */,
+				B5FCF4F62DA3EEE0000E9447 /* LocationsListView.swift in Sources */,
 				B5FCF4F12DA3B1E2000E9447 /* LocationsViewModel.swift in Sources */,
 				B5FCF4F42DA3C110000E9447 /* DEFAULT_LOCATION.swift in Sources */,
 				B5FCF4EF2DA3AA7F000E9447 /* LocationsView.swift in Sources */,
