@@ -39,7 +39,7 @@ extension LocationsView {
                     .foregroundColor(.primary)
                     .frame(height: 55)
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                    .animation(.none, value: vm.mapLocation)
+                    .animation(.none, value: vm.mapLocation) // stop applying animation, because the vm.toggleLocationsList is covered with withAnimation.
                     .overlay(alignment: .leading) {
                         Image(systemName: "arrow.down")
                             .font(.headline)
