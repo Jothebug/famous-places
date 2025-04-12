@@ -10,6 +10,7 @@
 		B5769D412DA4F06600323B5B /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769D402DA4F06600323B5B /* LocationPreviewView.swift */; };
 		B5769D432DA4F46F00323B5B /* MyCustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769D422DA4F46F00323B5B /* MyCustomButtonStyle.swift */; };
 		B59995CE2DAA55BC0038D17C /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59995CD2DAA55BC0038D17C /* LocationMapAnnotationView.swift */; };
+		B59995D02DAA5D530038D17C /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59995CF2DAA5D530038D17C /* LocationDetailView.swift */; };
 		B5FCF4D72DA39278000E9447 /* famous_placesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF4D62DA39278000E9447 /* famous_placesApp.swift */; };
 		B5FCF4DB2DA39279000E9447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FCF4DA2DA39279000E9447 /* Assets.xcassets */; };
 		B5FCF4DE2DA39279000E9447 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FCF4DD2DA39279000E9447 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		B5769D402DA4F06600323B5B /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		B5769D422DA4F46F00323B5B /* MyCustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomButtonStyle.swift; sourceTree = "<group>"; };
 		B59995CD2DAA55BC0038D17C /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		B59995CF2DAA5D530038D17C /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		B5FCF4D32DA39278000E9447 /* famous-places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "famous-places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FCF4D62DA39278000E9447 /* famous_placesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = famous_placesApp.swift; sourceTree = "<group>"; };
 		B5FCF4DA2DA39279000E9447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				B5FCF4F52DA3EEE0000E9447 /* LocationsListView.swift */,
 				B5769D402DA4F06600323B5B /* LocationPreviewView.swift */,
 				B59995CD2DAA55BC0038D17C /* LocationMapAnnotationView.swift */,
+				B59995CF2DAA5D530038D17C /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				B5FCF4EB2DA3A44D000E9447 /* LocationsDataService.swift in Sources */,
 				B59995CE2DAA55BC0038D17C /* LocationMapAnnotationView.swift in Sources */,
+				B59995D02DAA5D530038D17C /* LocationDetailView.swift in Sources */,
 				B5FCF4F62DA3EEE0000E9447 /* LocationsListView.swift in Sources */,
 				B5769D412DA4F06600323B5B /* LocationPreviewView.swift in Sources */,
 				B5FCF4F12DA3B1E2000E9447 /* LocationsViewModel.swift in Sources */,

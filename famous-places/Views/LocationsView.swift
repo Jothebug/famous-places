@@ -9,20 +9,22 @@ import SwiftUI
 import MapKit
 
 struct LocationsView: View {
+    
     @EnvironmentObject private var vm: LocationsViewModel
     
     var body: some View {
         ZStack {
             mapLayer
                 .ignoresSafeArea() // before using this method, map doesnt show fullscreen
-
-            
             VStack(spacing: 0) {
                 header
                     .padding()
                 Spacer()
                 locationsPreviewStack
             }
+        }
+        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
+            LocationDetailView(location: location)
         }
     }
 }
