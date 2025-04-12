@@ -15,10 +15,26 @@ struct LocationsView: View {
         ZStack {
             Map(coordinateRegion: $vm.mapRegion)
                 .ignoresSafeArea() // before using this method, map doesnt show fullscreen
+            
             VStack(spacing: 0) {
                 header
                     .padding()
                 Spacer()
+                ZStack {
+                    ForEach(vm.locations) { location in
+                        if vm.mapLocation == location {
+                            LocationPreviewView(location: location)
+                                .shadow(color: Color.black.opacity(0.3), radius: 20)
+                                .padding()
+                            // associates a transition with the view
+                                .transition(
+                                    .asymmetric(
+                                        insertion: .move(edge: .trailing),
+                                        removal: .move(edge: .leading))
+                                )
+                        }
+                    }
+                }
             }
         }
     }

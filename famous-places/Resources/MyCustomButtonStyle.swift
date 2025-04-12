@@ -12,9 +12,9 @@ struct MyCustomButtonStyle: ButtonStyle {
     var foregroundColor: Color
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .padding(.vertical, 5)
+            .padding(.vertical, 8)
             .background(backgroundColor)
             .foregroundColor(foregroundColor)
-            .cornerRadius(10)
+            .cornerRadius(6)
         }
 }
