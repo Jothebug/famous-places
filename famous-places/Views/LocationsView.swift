@@ -40,20 +40,24 @@ extension LocationsView {
     private var header: some View {
         VStack {
             Button(action: vm.toggleLocationsList, label: {
-                Text(vm.mapLocation.name + ", " + vm.mapLocation.cityName)
-                    .font(.title2)
-                    .fontWeight(.black)
-                    .foregroundColor(.primary)
-                    .frame(height: 55)
-                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                    .animation(.none, value: vm.mapLocation) // stop applying animation, because the vm.toggleLocationsList is covered with withAnimation.
-                    .overlay(alignment: .leading) {
-                        Image(systemName: "arrow.down")
-                            .font(.headline)
-                            .foregroundColor(.primary)
-                            .padding()
-                            .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
-                    }
+                HStack {
+                       Image(systemName: "arrow.down")
+                           .font(.headline)
+                           .foregroundColor(.primary)
+                           .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
+                           .padding(.trailing, 4)
+                       Text(vm.mapLocation.name + ", " + vm.mapLocation.cityName)
+                           .font(.title2)
+                           .fontWeight(.black)
+                           .foregroundColor(.primary)
+                           .lineLimit(1)
+                           .truncationMode(.tail)
+                       Spacer()
+                   }
+                   .frame(height: 55)
+                   .frame(maxWidth: .infinity)
+                   .animation(.none, value: vm.mapLocation) // stop applying animation, because the vm.toggleLocationsList is covered with withAnimation.
+                   .padding(.horizontal)
             })
             if vm.showLocationsList {
                 LocationsListView()

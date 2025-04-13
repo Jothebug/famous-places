@@ -1,10 +1,3 @@
-//
-//  LocationsDataService.swift
-//  MapTest
-//
-//  Created by Nick Sarno on 11/26/21.
-//
-
 import Foundation
 import MapKit
 
@@ -58,6 +51,18 @@ class LocationsDataService {
                     "hue-3"
                 ],
                 link: "https://en.wikipedia.org/wiki/Imperial_City,_Huế"
+            ),
+        Location(
+                name: "Cu Chi Tunnels",
+                cityName: "Ho Chi Minh City",
+                coordinates: CLLocationCoordinate2D(latitude: 11.1467, longitude: 106.4992),
+                description: "The Cu Chi Tunnels are an extensive network of underground tunnels used by the Viet Cong soldiers during the Vietnam War. Today, they are a popular tourist destination where visitors can experience what life was like underground.",
+                imageNames: [
+                    "cu-chi-tunnels-1",
+                    "cu-chi-tunnels-2",
+                    "cu-chi-tunnels-3"
+                ],
+                link: "https://en.wikipedia.org/wiki/Củ_Chi_tunnels"
             ),
     ]
 }
